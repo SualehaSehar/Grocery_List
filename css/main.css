@@ -1,0 +1,126 @@
+body {
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.main_card {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 90%;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0% 5%;
+  height: 40px;
+}
+
+.in {
+  width: 80%;
+  padding: 0.5% 0.5%;
+  border: 1px solid rgb(61, 100, 218);
+  border-radius: 5px;
+  outline-color: rgb(61, 100, 218);
+  background-color: rgb(227, 227, 255);
+  box-sizing: border-box;
+  font-size: large;
+}
+.in2 {
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(134, 184, 250);
+  font-weight: bolder;
+  font-size: medium;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grocery_list {
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+ul {
+  min-width: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: x-large;
+  width: 100%;
+  padding: 0;
+}
+
+ul li {
+  min-width: 0;
+  background: white;
+  width: 100%;
+  padding: 1% 2%;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 2%;
+}
+
+.spans {
+  height: 30px;
+  margin-right: 2%;
+  font-size: medium;
+  float: right;
+}
+
+.fa-edit {
+  color: chartreuse;
+}
+
+.fa-trash-o {
+  color: red;
+}
+
+.clr_items {
+  margin: 2.5%;
+  color: red;
+  font-size: large;
+}
+
+@media (max-width: 468px) {
+  .in {
+    width: 70%;
+  }
+
+  .in2 {
+    width: 30%;
+  }
+}
+
+@media (max-width: 300px) {
+  .in {
+    width: 60%;
+  }
+
+  .in2 {
+    width: 40%;
+  }
+}

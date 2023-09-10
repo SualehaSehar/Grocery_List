@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List</title>
+    <link rel="icon" href="data:," />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="main_card">
+      <h2>Grocery Bud</h2>
+      <form class="input_container">
+        <input
+          type="text"
+          id="gr_input"
+          class="in"
+          placeholder="e.g. eggs"
+          required
+        />
+        <button type="submit" class="addBtn in2">Submit</button>
+      </form>
+
+      <div class="grocery_list">
+        <ul class="grocery_ul">
+          <!-- <li>
+            Milk
+            <span class="spans"> <i class="fa fa-edit"></i></span>
+            <span class="spans"> <i class="fa fa-trash-o"></i></span>
+          </li> -->
+        </ul>
+      </div>
+
+      <span class="clr_items">Clear Items</span>
+    </div>
+
+    <script src="./Scripts/task1.js"></script>
+  </body>
+</html>
